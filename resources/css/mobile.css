@@ -4,7 +4,7 @@
    }
 
 
-  .header .mobile-logo-nav{
+  header .mobile-logo-nav{
     background-color:#A89170;
      height:4rem;
      width:100%;
@@ -13,7 +13,7 @@
      justify-content: space-around;
    }
 
-   .header .logo-nav{
+  header .logo-nav{
      display:none;
    }
    .banner{
@@ -40,7 +40,7 @@
   .information .info-main{
      width:90%;
         }
-  .information   .information-right-bar{
+  .information   aside{
      display:none;
       }
       .information   .information-mobile-bar{
@@ -98,34 +98,34 @@
         width:100%;
 
       }
-      .thesis .thesis-main{
+      .thesis main{
         display: block;
         width:90%;
       }
-      .thesis-main video{
+      .thesis main video{
         width:90%;
       }
       .thesis-summary{
-        width:90%;
-      }
-      .thesis-summary span{
-        font-size:1rem;
-      }
-
-      .thesis .thesis-main .thesis-side-bar{
         display: none;
       }
-      .footer{
+
+
+      .thesis main aside{
+        display: none;
+      }
+
+      footer{
         width:auto;
         height:auto;
       }
-      .footer span{
+      footer span{
+        font-size:0.5rem;
         margin-top:1.5rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
 
       }
-      .footer ul {
+      footer ul {
         display: none;
       }
  }
